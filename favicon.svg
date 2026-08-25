@@ -6,34 +6,39 @@
       <stop offset="100%" stop-color="#301a0d"/>
     </linearGradient>
     <linearGradient id="brass" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#f0dea0"/>
+      <stop offset="0%" stop-color="#f4e2a6"/>
       <stop offset="48%" stop-color="#c9a961"/>
-      <stop offset="100%" stop-color="#96762f"/>
+      <stop offset="100%" stop-color="#9c7d3f"/>
     </linearGradient>
     <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#f4f6f8"/>
-      <stop offset="100%" stop-color="#b9c1c9"/>
+      <stop offset="0%" stop-color="#f7f9fb"/>
+      <stop offset="100%" stop-color="#c4ccd3"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d9a866"/>
+      <stop offset="50%" stop-color="#c08e4a"/>
+      <stop offset="100%" stop-color="#9c6f34"/>
     </linearGradient>
   </defs>
   <rect width="512" height="512" fill="url(#bg)"/>
   <rect x="36" y="36" width="440" height="440" rx="60" fill="none" stroke="url(#brass)" stroke-width="13"/>
 
-  <g transform="rotate(18 256 256)">
+  <g transform="rotate(8 256 262)">
     <!-- manche -->
-    <rect x="240" y="150" width="32" height="266" rx="16" fill="url(#brass)" stroke="#4a3315" stroke-width="5"/>
-    <!-- tete de marteau a griffe -->
-    <path d="M232 120
-             C 196 116 168 150 150 210
-             L 176 220
-             C 192 176 206 164 232 168
-             L 232 196
-             L 300 196
-             Q 316 196 316 180
-             L 316 140
-             Q 316 122 298 122
-             L 232 122 Z"
-          fill="url(#steel)" stroke="#4a3315" stroke-width="5" stroke-linejoin="round"/>
-    <!-- fente de la griffe -->
-    <path d="M196 208 C 208 176 216 168 230 166 L 230 150 C 206 152 190 172 178 214 Z" fill="#301a0d"/>
+    <rect x="242" y="176" width="30" height="240" rx="15" fill="url(#wood)" stroke="#6f4f22" stroke-width="4"/>
+    <!-- tete de marteau (panne plate a droite, tete bombée a gauche) -->
+    <path d="M168 150
+             q0 -26 30 -26
+             h96
+             q22 0 22 22
+             v40
+             q0 22 -22 22
+             h-96
+             q-30 0 -30 -26
+             q-14 -6 -14 -16
+             q0 -10 14 -16 Z"
+          fill="url(#steel)" stroke="#5b6169" stroke-width="5" stroke-linejoin="round"/>
+    <!-- reflet -->
+    <rect x="200" y="136" width="108" height="9" rx="4" fill="#ffffff" opacity="0.55"/>
   </g>
 </svg>
