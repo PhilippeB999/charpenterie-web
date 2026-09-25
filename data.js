@@ -8308,53 +8308,32 @@ const LEVELS = [
    sélection de couleur. */
 const AVATAR_CHARACTERS = [
  {
-  "id": "dragon",
-  "name_fr": "Dragon",
-  "name_en": "Dragon",
-  "title_fr": "Le Sage",
-  "title_en": "The Sage",
+  "id": "chevre",
+  "name_fr": "Chèvre",
+  "name_en": "Mountain Goat",
+  "title_fr": "L'Alpiniste",
+  "title_en": "The Climber",
   "stages": [
    "🥚",
    "🥚",
-   "🦎",
-   "🦎",
-   "🐲",
-   "🐲",
-   "🐉",
-   "🐉",
-   "🐉",
-   "🐉",
-   "🐉",
-   "🐉"
+   "🐐",
+   "🐐",
+   "🐐",
+   "🐐",
+   "🐐",
+   "🐐",
+   "🐐",
+   "🐐",
+   "🐐",
+   "🐐"
   ]
  },
  {
-  "id": "licorne",
-  "name_fr": "Licorne",
-  "name_en": "Unicorn",
-  "title_fr": "La Guérisseuse",
-  "title_en": "The Healer",
-  "stages": [
-   "🥚",
-   "🥚",
-   "🐴",
-   "🐴",
-   "🦄",
-   "🦄",
-   "🦄",
-   "🦄",
-   "🦄",
-   "🦄",
-   "🦄",
-   "🦄"
-  ]
- },
- {
-  "id": "phenix",
-  "name_fr": "Phénix",
-  "name_en": "Phoenix",
-  "title_fr": "Le Résilient",
-  "title_en": "The Resilient One",
+  "id": "faucon",
+  "name_fr": "Faucon",
+  "name_en": "Falcon",
+  "title_fr": "Le Perché",
+  "title_en": "The Perched One",
   "stages": [
    "🥚",
    "🥚",
@@ -8371,24 +8350,45 @@ const AVATAR_CHARACTERS = [
   ]
  },
  {
-  "id": "griffon",
-  "name_fr": "Griffon",
-  "name_en": "Griffin",
-  "title_fr": "Le Courageux",
-  "title_en": "The Brave One",
+  "id": "gorille3",
+  "name_fr": "Gorille",
+  "name_en": "Gorilla",
+  "title_fr": "Le Charpentier",
+  "title_en": "The Framer",
   "stages": [
    "🥚",
    "🥚",
-   "🐱",
-   "🐱",
-   "🦁",
-   "🦁",
-   "🦁",
-   "🦁",
-   "🦁",
-   "🦁",
-   "🦁",
-   "🦁"
+   "🦍",
+   "🦍",
+   "🦍",
+   "🦍",
+   "🦍",
+   "🦍",
+   "🦍",
+   "🦍",
+   "🦍",
+   "🦍"
+  ]
+ },
+ {
+  "id": "castor2",
+  "name_fr": "Castor",
+  "name_en": "Beaver",
+  "title_fr": "Le Bâtisseur",
+  "title_en": "The Builder",
+  "stages": [
+   "🥚",
+   "🥚",
+   "🦫",
+   "🦫",
+   "🦫",
+   "🦫",
+   "🦫",
+   "🦫",
+   "🦫",
+   "🦫",
+   "🦫",
+   "🦫"
   ]
  }
 ];
